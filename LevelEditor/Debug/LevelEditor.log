@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\c00207239\Desktop\Editor\LevelEditor\LevelEditor\Tile.h(12,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00207239\Desktop\Editor\LevelEditor\LevelEditor\Tile.h(12,57): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00207239\Desktop\Editor\LevelEditor\LevelEditor\main.cpp(28,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\c00207239\Desktop\Editor\LevelEditor\LevelEditor\main.cpp(74,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\c00207239\Desktop\Editor\LevelEditor\LevelEditor\main.cpp(74,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  LevelEditor.vcxproj -> C:\Users\c00207239\Desktop\Editor\LevelEditor\Debug\LevelEditor.exe
