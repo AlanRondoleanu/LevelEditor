@@ -122,36 +122,19 @@ int main()
 					}
 					for (size_t i = 0; i < 5; i++)
 					{
-						//int temp = colorNumber;
-						colorNumber = colorTiles[i].checkColor(mousePosition);
-						if (colorNumber != 0)
+						//currentColor = sf::Color::Black;
+						if (mousePosition.x < 50)
 						{
-							break;
+							currentColor = colorTiles[i].checkColor(mousePosition);
+							if (currentColor != sf::Color::Black)
+							{
+								break;
+							}
 						}
 					}
 				}
 			}
 
-			switch (colorNumber)
-			{
-			case 1:
-				currentColor = sf::Color::Red;
-				break;
-			case 2:
-				currentColor = sf::Color::Blue;
-				break;
-			case 3:
-				currentColor = sf::Color::Yellow;
-				break;
-			case 4:
-				currentColor = sf::Color::Green;
-				break;
-			case 5:
-				currentColor = sf::Color::White;
-				break;
-			default:
-				break;
-			}
 
 			window.clear();
 

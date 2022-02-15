@@ -14,7 +14,7 @@ public:
 	void setColor(sf::Color t_color) { shape.setFillColor(t_color); }
 	void setSize(sf::Vector2f t_size) { shape.setSize(t_size); } 
 	void checkCollision(sf::Vector2f t_mouse, sf::Color& t_color);
-	int checkColor(sf::Vector2f t_mouse);
+	sf::Color checkColor(sf::Vector2f t_mouse);
 	sf::Color getColor() { return shape.getFillColor(); }
 
 	static int count;
